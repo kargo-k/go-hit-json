@@ -1,0 +1,9 @@
+start-time:6:35
+6:38  cephalopodcast  acronym  ruby  code did not compile
+6:43  runtime expection  acronym  java error
+6:43  No idea  sherlock  js  formatting
+6:43  verbose guac  acronym  python  pass
+6:43  Denial  acronym  js  wrong input
+6:50  No idea  acronym  js  pass
+6:56  cephalopodcast  sherlock  ruby  pass
+6:58  cephalopodcast  acronym  ruby  pass
