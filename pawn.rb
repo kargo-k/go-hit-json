@@ -14,16 +14,9 @@ bishop = bishop.split('')
 bishop[0] = (bishop[0].sum - 96).to_i
 bishop[1] = bishop[1].to_i
 
-path = []
+b = bishop[1] - bishop[0]
 
-for i in (1..7).to_a do
-  path << [bishop[0]+i, bishop[1]+i]
-  path << [bishop[0]+i, bishop[1]-i]
-  path << [bishop[0]-i, bishop[1]+i]
-  path << [bishop[0]-i, bishop[1]-i]
-end
-
-if path.index(pawn) != -1
+if (pawn[1] + pawn[0]) == b || (pawn[1] - pawn[0]) == b
   puts 'captured'
 else
   puts 'safe'
