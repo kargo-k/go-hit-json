@@ -7,11 +7,14 @@ end
 
 
 def knockknock(arr)
-  arr[0].includes(".")
+  line = arr[0].split("")
+  line.pop()
+  bob = line.join()
+
   puts "Knock, knock."
   puts "Who's there?"
-  puts arr[0]
-  puts arr[0] + " who?" 
+  puts bob
+  puts bob + " who?" 
   puts arr[1]
 end
 
