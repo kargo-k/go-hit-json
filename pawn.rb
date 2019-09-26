@@ -3,7 +3,7 @@ lines.each do |line|
   puts line
 end
 
-
+lines = lines[0].split(' ')
 pawn = lines[0]
 pawn = pawn.split('')
 pawn[0] = (pawn[0].sum - 96).to_i
